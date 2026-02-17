@@ -38,6 +38,11 @@ const deviceSchema = new Schema({
     index: true
   },
 
+  user:{
+    type: Schema.Types.ObjectId,
+    ref: 'User'
+  },
+
   class: {
     type: String,
     enum: ["lurker", "user", "admin"]

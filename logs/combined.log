@@ -335,3 +335,332 @@ undefined [info]: Server is running on http://localhost:3000
  [info] 2026-01-26 19:23:48: POST /api/v1/user/create-user device:null
  [info] 2026-02-03 12:19:55: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
  [info] 2026-02-03 12:19:55: Server running at http://localhost:3000
+ [info] 2026-02-13 14:43:44: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 14:43:44: Server running at http://localhost:3000
+ [info] 2026-02-13 14:43:51: POST /api/v1device/sync device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '::1',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-01-21T10:25:38.228Z
+}
+ [info] 2026-02-13 14:44:03: POST /api/v1/device/sync device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '::1',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-01-21T10:25:38.228Z
+}
+ [info] 2026-02-13 14:44:59: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-13 14:44:59: Server running at http://localhost:3000
+ [info] 2026-02-13 14:57:24: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 14:57:24: Server running at http://localhost:3000
+ [info] 2026-02-13 14:57:38: PATCH /api/v1/device/sync device:null
+ [info] 2026-02-13 14:57:44: PATCH /api/v1/device/sync device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '::1',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-01-21T10:25:38.228Z
+}
+ [info] 2026-02-13 14:57:46: PATCH /api/v1/device/sync device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '::1',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-01-21T10:25:38.228Z
+}
+ [info] 2026-02-13 14:57:57: PATCH /api/v1/device/sync device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '::1',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-01-21T10:25:38.228Z
+}
+ [info] 2026-02-13 15:00:02: POST /api/v1/device/sync device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '::1',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-01-21T10:25:38.228Z
+}
+ [info] 2026-02-13 15:00:08: PATCH /api/v1/device/sync device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '::1',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-01-21T10:25:38.228Z
+}
+ [info] 2026-02-13 15:00:48: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:00:48: Server running at http://localhost:3000
+ [info] 2026-02-13 15:01:09: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:01:09: Server running at http://localhost:3000
+ [info] 2026-02-13 15:01:16: PATCH /api/v1/device/sync device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '192.168.1.10',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-02-13T10:01:16.033Z
+}
+ [info] 2026-02-13 15:09:10: POST /api/v1 device:null
+ [info] 2026-02-13 15:09:51: POST /api/v1/user/create-user device:null
+ [info] 2026-02-13 15:10:09: POST /api/v1/user/create-user device:null
+ [info] 2026-02-13 15:22:16: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:22:16: Server running at http://localhost:3000
+ [info] 2026-02-13 15:22:19: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:22:19: Server running at http://localhost:3000
+ [info] 2026-02-13 15:23:07: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:23:07: Server running at http://localhost:3000
+ [info] 2026-02-13 15:23:10: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:23:10: Server running at http://localhost:3000
+ [info] 2026-02-13 15:26:06: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:26:06: Server running at http://localhost:3000
+ [info] 2026-02-13 15:26:27: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:26:27: Server running at http://localhost:3000
+ [info] 2026-02-13 15:26:40: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:26:40: Server running at http://localhost:3000
+ [info] 2026-02-13 15:26:43: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:26:43: Server running at http://localhost:3000
+ [info] 2026-02-13 15:26:46: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:26:46: Server running at http://localhost:3000
+ [info] 2026-02-13 15:26:53: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:26:53: Server running at http://localhost:3000
+ [info] 2026-02-13 15:26:56: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:26:56: Server running at http://localhost:3000
+ [info] 2026-02-13 15:26:59: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:26:59: Server running at http://localhost:3000
+ [info] 2026-02-13 15:27:21: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:27:21: Server running at http://localhost:3000
+ [info] 2026-02-13 15:35:48: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:35:48: Server running at http://localhost:3000
+ [info] 2026-02-13 15:36:11: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:36:11: Server running at http://localhost:3000
+ [info] 2026-02-13 15:36:17: POST /api/v1/user/create-user device:null
+ [info] 2026-02-13 15:36:27: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:36:27: Server running at http://localhost:3000
+ [info] 2026-02-13 15:36:53: POST /api/v1/user/create-user device:null
+ [info] 2026-02-13 15:37:09: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:37:09: Server running at http://localhost:3000
+ [info] 2026-02-13 15:37:23: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:37:23: Server running at http://localhost:3000
+ [info] 2026-02-13 15:38:34: POST /api/v1/user/create-user device:null
+ [info] 2026-02-13 15:41:34: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:41:34: Server running at http://localhost:3000
+ [info] 2026-02-13 15:41:43: POST /api/v1/user/create-user device:null
+ [info] 2026-02-13 15:42:01: POST /api/v1/user/create-user device:null
+ [info] 2026-02-13 15:42:41: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:42:42: Server running at http://localhost:3000
+ [info] 2026-02-13 15:43:10: POST /api/v1/user/create-user device:null
+ [info] 2026-02-13 15:57:56: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:57:56: Server running at http://localhost:3000
+ [info] 2026-02-13 15:58:07: POST /api/v1/user/create-user device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '192.168.1.10',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-02-13T10:01:16.033Z
+}
+ [info] 2026-02-13 15:58:38: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:58:38: Server running at http://localhost:3000
+ [info] 2026-02-13 15:59:03: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-13 15:59:03: Server running at http://localhost:3000
+ [info] 2026-02-13 15:59:31: POST /api/v1/user/create-user device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '192.168.1.10',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-02-13T10:01:16.033Z
+}
+ [info] 2026-02-13 16:00:22: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-13 16:00:22: Server running at http://localhost:3000
+ [info] 2026-02-13 16:00:27: POST /api/v1/user/create-user device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '192.168.1.10',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-02-13T10:01:16.033Z
+}
+ [info] 2026-02-13 16:00:39: POST /api/v1/user/create-user device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '192.168.1.10',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-02-13T11:00:39.559Z,
+  user: new ObjectId('698f0457ea3d709529343e41')
+}
+ [info] 2026-02-13 16:14:30: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-13 16:14:30: Server running at http://localhost:3000
+ [info] 2026-02-13 16:18:45: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-13 16:18:45: Server running at http://localhost:3000
+ [info] 2026-02-13 16:20:38: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 16:20:38: Server running at http://localhost:3000
+ [info] 2026-02-13 16:21:34: PATCH /api/v1/patch/698f0457ea3d709529343e411 device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '192.168.1.10',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-02-13T11:00:39.559Z,
+  user: new ObjectId('698f0457ea3d709529343e41')
+}
+ [info] 2026-02-13 16:21:48: PATCH /api/v1/user/patch/698f0457ea3d709529343e411 device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '192.168.1.10',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-02-13T11:00:39.559Z,
+  user: new ObjectId('698f0457ea3d709529343e41')
+}
+ [info] 2026-02-13 16:22:23: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 16:22:23: Server running at http://localhost:3000
+ [info] 2026-02-13 16:22:27: PATCH /api/v1/user/patch/698f0457ea3d709529343e411 device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '192.168.1.10',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-02-13T11:00:39.559Z,
+  user: new ObjectId('698f0457ea3d709529343e41')
+}
+ [info] 2026-02-13 16:22:48: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 16:22:48: Server running at http://localhost:3000
+ [info] 2026-02-13 16:22:53: PATCH /api/v1/user/patch/698f0457ea3d709529343e411 device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '192.168.1.10',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-02-13T11:00:39.559Z,
+  user: new ObjectId('698f0457ea3d709529343e41')
+}
+ [info] 2026-02-13 16:23:12: PATCH /api/v1/user/patch/698f0457ea3d709529343e41 device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '192.168.1.10',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-02-13T11:00:39.559Z,
+  user: new ObjectId('698f0457ea3d709529343e41')
+}
+ [info] 2026-02-13 16:24:02: PATCH /api/v1/user/patch/698f0457ea3d709529343e411 device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '192.168.1.10',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-02-13T11:00:39.559Z,
+  user: new ObjectId('698f0457ea3d709529343e41')
+}
+ [info] 2026-02-13 16:24:27: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-13 16:24:27: Server running at http://localhost:3000
+ [info] 2026-02-13 16:24:30: PATCH /api/v1/user/patch/698f0457ea3d709529343e411 device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '192.168.1.10',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-02-13T11:00:39.559Z,
+  user: new ObjectId('698f0457ea3d709529343e41')
+}
+ [info] 2026-02-13 16:25:29: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 16:25:29: Server running at http://localhost:3000
+ [info] 2026-02-13 16:50:37: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 16:50:37: Server running at http://localhost:3000
+ [info] 2026-02-13 16:53:22: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 16:53:22: Server running at http://localhost:3000
+ [info] 2026-02-13 17:05:10: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-13 17:05:10: Server running at http://localhost:3000
+ [info] 2026-02-16 14:53:07: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-16 14:53:07: Server running at http://localhost:3000
+ [info] 2026-02-16 14:58:07: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-16 14:58:07: Server running at http://localhost:3000
+ [info] 2026-02-16 15:14:03: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:14:03: Server running at http://localhost:3000
+ [info] 2026-02-16 15:14:46: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:14:46: Server running at http://localhost:3000
+ [info] 2026-02-16 15:22:18: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:22:18: Server running at http://localhost:3000
+ [info] 2026-02-16 15:22:30: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:22:30: Server running at http://localhost:3000
+ [info] 2026-02-16 15:23:02: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:23:02: Server running at http://localhost:3000
+ [info] 2026-02-16 15:24:23: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:24:23: Server running at http://localhost:3000
+ [info] 2026-02-16 15:31:55: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:31:55: Server running at http://localhost:3000
+ [info] 2026-02-16 15:33:02: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:33:02: Server running at http://localhost:3000
+ [info] 2026-02-16 15:33:30: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:33:30: Server running at http://localhost:3000
+ [info] 2026-02-16 15:33:45: PATCH /api/v1/category/create device:null
+ [info] 2026-02-16 15:33:52: POST /api/v1/category/create device:null
+ [info] 2026-02-16 15:35:02: POST /api/v1/category/create device:null
+ [info] 2026-02-16 15:35:22: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:35:22: Server running at http://localhost:3000
+ [info] 2026-02-16 15:35:34: POST /api/v1/category/create device:null
+ [info] 2026-02-16 15:36:08: POST /api/v1/user/create-user device:{
+  _id: new ObjectId('6970a9a2a973dd12bff9b24d'),
+  ip: '192.168.1.10',
+  deviceId: 'a1b2cdsk3d4e5',
+  class: 'lurker',
+  info: { os: 'android', name: 'realme', version: '11.0' },
+  createdAt: 2026-01-21T10:25:38.228Z,
+  updatedAt: 2026-02-16T10:36:07.860Z,
+  user: new ObjectId('6992f3175a52398bac01d203')
+}
+ [info] 2026-02-16 15:39:24: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-00.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:39:24: Server running at http://localhost:3000
+ [info] 2026-02-16 15:39:35: POST /api/v1/category/create device:null
+ [info] 2026-02-16 15:40:37: POST /api/v1/category/create device:null
+ [info] 2026-02-16 15:40:48: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:40:48: Server running at http://localhost:3000
+ [info] 2026-02-16 15:41:14: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:41:14: Server running at http://localhost:3000
+ [info] 2026-02-16 15:42:21: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:42:21: Server running at http://localhost:3000
+ [info] 2026-02-16 15:42:38: POST /api/v1/category/create device:null
+ [info] 2026-02-16 15:43:05: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:43:05: Server running at http://localhost:3000
+ [info] 2026-02-16 15:43:28: POST /api/v1/category/create device:null
+ [info] 2026-02-16 15:45:10: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-16 15:45:10: Server running at http://localhost:3000
+ [info] 2026-02-16 16:21:14: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-01.ansfkcy.mongodb.net
+ [info] 2026-02-16 16:21:14: Server running at http://localhost:3000
+ [info] 2026-02-16 16:22:15: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-16 16:22:15: Server running at http://localhost:3000
+ [info] 2026-02-16 16:22:45: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-16 16:22:45: Server running at http://localhost:3000
+ [info] 2026-02-16 16:24:17: MongoDB connected !! DB HOST: ac-ly5cuqm-shard-00-02.ansfkcy.mongodb.net
+ [info] 2026-02-16 16:24:17: Server running at http://localhost:3000

@@ -2,7 +2,7 @@ import ApiError from "../utils/ApiError.js";
 
 const classBasedAccess = (...allowedRoles) => {
   return (req, res, next) => {
-    if (!req.user || !req.user.role) {
+    if (!req.user || !req.user.class) {
       return res.status(401).json(
         new ApiError({
           status: 401,
@@ -11,7 +11,7 @@ const classBasedAccess = (...allowedRoles) => {
       );
     }
 
-    if (!allowedRoles.includes(req.user.role)) {
+    if (!allowedRoles.includes(req.user.class)) {
       return res.status(403).json(
         new ApiError({
           status: 403,

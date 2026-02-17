@@ -4,13 +4,11 @@ const { Schema } = mongoose;
 const profileSchema = new Schema({
   currency: {
     type: String,
-    required: true,
     uppercase: true,
     enum: ['USD', 'PKR', 'EUR', 'GBP', 'BHD']
   },
   country: {
     type: String,
-    required: true,
     trim: true
   }
 }, { _id: false });
@@ -35,7 +33,7 @@ const userSchema = new Schema({
 
   profile: profileSchema, 
 
-  role: {
+  class: {
     type: String,
     enum: ['user', 'provider', 'admin', 'lurker'],
     default: 'lurker'
@@ -84,6 +82,10 @@ const userSchema = new Schema({
   deviceInfo: {
     type: Schema.Types.ObjectId,
     ref: 'Device'
+  },
+
+  deviceId:{
+    type: String,
   },
 
   ip: {

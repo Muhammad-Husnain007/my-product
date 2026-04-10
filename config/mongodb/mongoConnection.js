@@ -5,6 +5,7 @@ import logger from '../logger.config.js';
 
 const MongoConnection = async () => {
   try {
+    console.log(env.MONGO_URI)
     const connectionInstance = await mongoose.connect(`${env.MONGO_URI}${DB_NAME}`)
     logger.info(`MongoDB connected !! DB HOST: ${connectionInstance.connection.host}`);
   } catch (error) {

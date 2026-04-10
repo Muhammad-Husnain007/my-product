@@ -2,7 +2,7 @@ import { DeviceModel } from '../src/modules/device/model/device.model.js';
 import logger from './logger.config.js';
 
 const globalLogger = (req, res, next) => {
-  const deviceId = req.body.deviceId || req.headers['device-id'] || 'UnknownDevice';
+  const deviceId = req.body?.deviceId || req.headers['device-id'] || 'UnknownDevice';
   const method = req.method;
   const path = req.originalUrl;
 

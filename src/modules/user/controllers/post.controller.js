@@ -1,83 +1,58 @@
-import ApiError from "../../../utils/ApiError.js";
-import ApiResponse from "../../../utils/ApiResponse.js";
+import logger from "../../../../config/logger.config.js";
 import { UserModel } from "../model/user.model.js";
-import { DeviceModel } from './../../device/model/device.model.js';
+import generateToken from "../services/auth.service.js";
 
-// Get all countries
 const createUser = async (req, res) => {
-  try {
-   
-    const {
-      firstName,
-      lastName,
-      email,
-      phone,
-      deviceId
-    } = req.body;
+  const { phone } = req.body;
 
-    const ip = req.ip;
- 
+  const existingUser = await UserModel.findOne({ 
+    "phone.countryCode": phone.countryCode,
+    "phone.phoneNumber": phone.phoneNumber
+  }).select("_id isFirstLogin");
 
-    const already = await UserModel.findOne({
-      email,
-      del: false
-    });
-    const findDevice = await DeviceModel.findOne({
-      deviceId,
-      del: false
-    });
-
-    if(!findDevice){
-      return res.status(404).json({
-        message: "Device not found"
-      })
-    }
-
-    let profile = {
-      currency: "PKR",
-      country:"Pakistan"
-    };
-
-    if (already) {
-      return res.status(400).json(
-        new ApiResponse({
-          status: 400,
-          success: false,
-          message: "User already exists"
-        })
-      );
-    }
-
-    // 🔹 create user
-    const user = await UserModel.create({
-      firstName,
-      lastName,
-      email,
-      phone,
-      ip,
-      deviceInfo:findDevice,
-      profile
-    });
-
-      findDevice.user = user._id;
-       await findDevice.save();
-    return res.status(201).json(
-      new ApiResponse({
-        status: 201,
-        success: true,
-        message: "User created successfully",
-        data: user
-      })
-    );
-
-  } catch (error) {
-    return res.status(500).json(
-      new ApiError({
-        status: 500,
-        error: error.message
-      })
-    );
+  if(existingUser?.isFirstLogin === false) {
+    existingUser.otp = 1234;
+    existingUser.otpExpiresAt = new Date(Date.now() + 60 * 1000); 
+    await existingUser.save();
+    return res.status(200).json({ success: true, data: existingUser, message: "OTP sent successfully" });
   }
-};
 
-export { createUser };
+  const user = new UserModel({
+    phone,
+    otp: 1234,
+    ip: req?.ip,
+    otpExpiresAt: new Date(Date.now() + 60 * 1000), 
+  });
+  await user.save();
+  return res.status(201).json({ success: true, data: user, message: "User created successfully" });
+  
+};    
+
+
+const verifyOTP = async (req, res) => {
+  const { phone, otp } = req.body;
+  const user = await UserModel.findOne({ 
+    "phone.countryCode": phone.countryCode,
+    "phone.phoneNumber": phone.phoneNumber
+  })
+  if (!user) {
+    return res.status(404).json({ success: false, data: null, message: "User not found" });
+  }
+
+  if (user.otp !== otp || user.otpExpiresAt < new Date()) {
+    return res.status(400).json({ success: false, data: null, message: "Invalid OTP" });
+  }
+  user.isFirstLogin = false;
+  user.otp = null;
+  user.otpExpiresAt = null;
+  user.lastLogin = new Date();
+  user.loginCount += 1;
+  user.emailVerified = true;
+  await generateToken(user);  
+  await user.save();
+  logger.info(`User ${user._id} logged in successfully. Total logins: ${user.loginCount}`);
+  return res.status(200).json({ success: true, data: user, message: "OTP verified successfully" });
+}
+
+
+export { createUser, verifyOTP };

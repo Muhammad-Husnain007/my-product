@@ -48,7 +48,7 @@ const deviceSchema = new Schema({
     enum: ["lurker", "user", "admin"]
   },
 
-  info: infoSchema, // ✅ real object
+  info: infoSchema,
 
   // user: {
   //   type: Schema.Types.ObjectId,

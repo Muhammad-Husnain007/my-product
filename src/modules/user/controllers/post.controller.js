@@ -48,10 +48,10 @@ const verifyOTP = async (req, res) => {
   user.lastLogin = new Date();
   user.loginCount += 1;
   user.emailVerified = true;
-  await generateToken(user);  
+  const token = await generateToken(user);  
   await user.save();
   logger.info(`User ${user._id} logged in successfully. Total logins: ${user.loginCount}`);
-  return res.status(200).json({ success: true, data: user, message: "OTP verified successfully" });
+  return res.status(200).json({ success: true, data: user, token: token, message: "OTP verified successfully" });
 }
 
 

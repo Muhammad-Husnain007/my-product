@@ -1269,3 +1269,5 @@ undefined [info]: Server is running on http://localhost:3000
  [info] 2026-04-11 20:08:37: Server running at http://localhost:3000
  [info] 2026-04-11 20:10:06: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
  [info] 2026-04-11 20:10:06: Server running at http://localhost:3000
+ [info] 2026-04-11 20:10:15: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 20:10:15: Server running at http://localhost:3000

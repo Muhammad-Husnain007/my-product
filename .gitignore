@@ -6,6 +6,7 @@ cache/
 temp/
 logs/
 .env
+git rm --cached .env
 
 .qodo
 .vscode

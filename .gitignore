@@ -1,39 +1,15 @@
-# Node modules
-node_modules/
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Build output
-dist/
-build/
-
-# Coverage
-coverage/
-
-# OS files
+pm2start-staging.sh
+pm2start-production.sh
 .DS_Store
-Thumbs.db
+node_modules/
+cache/
+temp/
+logs/
+.env
+git rm --cached .env
 
-# IDE / Editor
-.vscode/
-.idea/
-*.swp
+.qodo
+.vscode
 
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
-
-# Optional cache
-.cache/
+# NewRelic Log File
+newrelic_agent.log

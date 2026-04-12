@@ -954,3 +954,320 @@ undefined [info]: Server is running on http://localhost:3000
  [info] 2026-04-10 23:29:39: Server running at http://localhost:3000
  [info] 2026-04-10 23:29:50: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
  [info] 2026-04-10 23:29:50: Server running at http://localhost:3000
+ [info] 2026-04-11 12:26:06: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:26:06: Server running at http://localhost:3000
+ [info] 2026-04-11 12:35:42: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:35:42: Server running at http://localhost:3000
+ [info] 2026-04-11 12:36:10: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:36:10: Server running at http://localhost:3000
+ [info] 2026-04-11 12:36:36: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:36:36: Server running at http://localhost:3000
+ [info] 2026-04-11 12:36:41: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:36:41: Server running at http://localhost:3000
+ [info] 2026-04-11 12:37:01: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:37:01: Server running at http://localhost:3000
+ [info] 2026-04-11 12:37:05: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:37:05: Server running at http://localhost:3000
+ [info] 2026-04-11 12:37:08: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:37:08: Server running at http://localhost:3000
+ [info] 2026-04-11 12:38:08: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:38:08: Server running at http://localhost:3000
+ [info] 2026-04-11 12:38:14: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:38:14: Server running at http://localhost:3000
+ [info] 2026-04-11 12:38:17: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:38:17: Server running at http://localhost:3000
+ [info] 2026-04-11 12:38:49: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:38:49: Server running at http://localhost:3000
+ [info] 2026-04-11 12:38:54: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:38:54: Server running at http://localhost:3000
+ [info] 2026-04-11 12:39:17: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:39:17: Server running at http://localhost:3000
+ [info] 2026-04-11 12:39:24: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:39:24: Server running at http://localhost:3000
+ [info] 2026-04-11 12:39:33: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:39:33: Server running at http://localhost:3000
+ [info] 2026-04-11 12:39:40: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:39:40: Server running at http://localhost:3000
+ [info] 2026-04-11 12:39:43: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:39:43: Server running at http://localhost:3000
+ [info] 2026-04-11 12:40:03: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:40:03: Server running at http://localhost:3000
+ [info] 2026-04-11 12:40:06: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:40:06: Server running at http://localhost:3000
+ [info] 2026-04-11 12:42:06: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:42:06: Server running at http://localhost:3000
+ [info] 2026-04-11 12:42:17: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:42:17: Server running at http://localhost:3000
+ [info] 2026-04-11 12:42:23: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:42:23: Server running at http://localhost:3000
+ [info] 2026-04-11 12:42:30: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:42:30: Server running at http://localhost:3000
+ [info] 2026-04-11 12:42:38: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:42:38: Server running at http://localhost:3000
+ [info] 2026-04-11 12:42:42: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:42:42: Server running at http://localhost:3000
+ [info] 2026-04-11 12:42:52: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:42:52: Server running at http://localhost:3000
+ [info] 2026-04-11 12:43:02: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:43:02: Server running at http://localhost:3000
+ [info] 2026-04-11 12:43:11: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:43:11: Server running at http://localhost:3000
+ [info] 2026-04-11 12:43:19: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:43:19: Server running at http://localhost:3000
+ [info] 2026-04-11 12:43:33: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:43:33: Server running at http://localhost:3000
+ [info] 2026-04-11 12:43:47: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:43:47: Server running at http://localhost:3000
+ [info] 2026-04-11 12:45:01: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:45:01: Server running at http://localhost:3000
+ [info] 2026-04-11 12:45:12: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:45:12: Server running at http://localhost:3000
+ [info] 2026-04-11 12:45:26: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:45:26: Server running at http://localhost:3000
+ [info] 2026-04-11 12:45:42: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:45:42: Server running at http://localhost:3000
+ [info] 2026-04-11 12:45:56: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:45:56: Server running at http://localhost:3000
+ [info] 2026-04-11 12:46:15: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:46:15: Server running at http://localhost:3000
+ [info] 2026-04-11 12:46:41: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:46:41: Server running at http://localhost:3000
+ [info] 2026-04-11 12:47:20: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:47:20: Server running at http://localhost:3000
+ [info] 2026-04-11 12:47:24: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:47:24: Server running at http://localhost:3000
+ [info] 2026-04-11 12:47:30: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:47:30: Server running at http://localhost:3000
+ [info] 2026-04-11 12:47:35: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:47:35: Server running at http://localhost:3000
+ [info] 2026-04-11 12:47:41: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:47:41: Server running at http://localhost:3000
+ [info] 2026-04-11 12:47:53: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:47:53: Server running at http://localhost:3000
+ [info] 2026-04-11 12:48:24: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:48:24: Server running at http://localhost:3000
+ [info] 2026-04-11 12:48:30: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:48:30: Server running at http://localhost:3000
+ [info] 2026-04-11 12:49:01: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:49:01: Server running at http://localhost:3000
+ [info] 2026-04-11 12:49:10: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:49:10: Server running at http://localhost:3000
+ [info] 2026-04-11 12:49:19: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:49:19: Server running at http://localhost:3000
+ [info] 2026-04-11 12:49:29: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:49:29: Server running at http://localhost:3000
+ [info] 2026-04-11 12:49:34: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:49:34: Server running at http://localhost:3000
+ [info] 2026-04-11 12:49:45: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:49:45: Server running at http://localhost:3000
+ [info] 2026-04-11 12:49:56: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:49:56: Server running at http://localhost:3000
+ [info] 2026-04-11 12:50:07: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:50:07: Server running at http://localhost:3000
+ [info] 2026-04-11 12:50:23: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:50:23: Server running at http://localhost:3000
+ [info] 2026-04-11 12:50:29: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:50:29: Server running at http://localhost:3000
+ [info] 2026-04-11 12:50:36: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:50:36: Server running at http://localhost:3000
+ [info] 2026-04-11 12:50:45: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:50:45: Server running at http://localhost:3000
+ [info] 2026-04-11 12:50:52: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:50:52: Server running at http://localhost:3000
+ [info] 2026-04-11 12:50:59: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:50:59: Server running at http://localhost:3000
+ [info] 2026-04-11 12:51:03: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:51:03: Server running at http://localhost:3000
+ [info] 2026-04-11 12:51:18: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:51:18: Server running at http://localhost:3000
+ [info] 2026-04-11 12:51:24: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:51:24: Server running at http://localhost:3000
+ [info] 2026-04-11 12:51:38: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:51:38: Server running at http://localhost:3000
+ [info] 2026-04-11 12:51:47: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:51:47: Server running at http://localhost:3000
+ [info] 2026-04-11 12:51:57: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:51:57: Server running at http://localhost:3000
+ [info] 2026-04-11 12:52:06: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:52:06: Server running at http://localhost:3000
+ [info] 2026-04-11 12:52:20: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:52:20: Server running at http://localhost:3000
+ [info] 2026-04-11 12:52:42: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:52:42: Server running at http://localhost:3000
+ [info] 2026-04-11 12:52:54: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:52:54: Server running at http://localhost:3000
+ [info] 2026-04-11 12:53:09: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:53:09: Server running at http://localhost:3000
+ [info] 2026-04-11 12:53:19: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:53:19: Server running at http://localhost:3000
+ [info] 2026-04-11 12:53:48: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:53:48: Server running at http://localhost:3000
+ [info] 2026-04-11 12:54:04: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:54:04: Server running at http://localhost:3000
+ [info] 2026-04-11 12:54:24: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:54:24: Server running at http://localhost:3000
+ [info] 2026-04-11 12:54:40: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:54:40: Server running at http://localhost:3000
+ [info] 2026-04-11 12:54:49: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:54:49: Server running at http://localhost:3000
+ [info] 2026-04-11 12:55:13: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:55:13: Server running at http://localhost:3000
+ [info] 2026-04-11 12:55:23: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:55:23: Server running at http://localhost:3000
+ [info] 2026-04-11 12:55:31: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:55:31: Server running at http://localhost:3000
+ [info] 2026-04-11 12:55:39: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 12:55:39: Server running at http://localhost:3000
+ [info] 2026-04-11 13:04:38: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 13:04:38: Server running at http://localhost:3000
+ [info] 2026-04-11 13:04:48: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 13:04:48: Server running at http://localhost:3000
+ [info] 2026-04-11 13:05:05: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 13:05:05: Server running at http://localhost:3000
+ [info] 2026-04-11 13:05:48: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 13:05:48: Server running at http://localhost:3000
+ [info] 2026-04-11 13:06:07: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 13:06:07: Server running at http://localhost:3000
+ [info] 2026-04-11 17:43:30: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 17:43:31: Server running at http://localhost:3000
+ [info] 2026-04-11 17:45:10: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 17:45:10: Server running at http://localhost:3000
+ [info] 2026-04-11 17:45:20: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 17:45:20: Server running at http://localhost:3000
+ [info] 2026-04-11 17:59:44: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 17:59:44: Server running at http://localhost:3000
+ [info] 2026-04-11 18:37:25: POST /api/v1/address/create device:null
+ [info] 2026-04-11 18:45:20: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 18:45:20: Server running at http://localhost:3000
+ [info] 2026-04-11 18:45:26: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 18:45:26: Server running at http://localhost:3000
+ [info] 2026-04-11 18:47:51: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 18:47:51: Server running at http://localhost:3000
+ [info] 2026-04-11 18:48:09: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 18:48:09: Server running at http://localhost:3000
+ [info] 2026-04-11 18:48:13: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 18:48:13: Server running at http://localhost:3000
+ [info] 2026-04-11 18:49:13: POST /api/v1/user/verify-otp device:null
+ [info] 2026-04-11 18:49:28: POST /api/v1/user/create-user device:null
+ [info] 2026-04-11 18:49:37: User 69d94099910a6ce47e88e155 logged in successfully. Total logins: 3
+ [info] 2026-04-11 18:49:38: POST /api/v1/user/verify-otp device:null
+ [info] 2026-04-11 18:50:25: POST /api/v1/address/create device:null
+ [info] 2026-04-11 18:50:38: POST /api/v1/address/create device:null
+ [info] 2026-04-11 18:52:40: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 18:52:40: Server running at http://localhost:3000
+ [info] 2026-04-11 18:52:44: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 18:52:44: Server running at http://localhost:3000
+ [info] 2026-04-11 18:52:56: POST /api/v1/user/create-user device:null
+ [info] 2026-04-11 18:53:02: User 69d94099910a6ce47e88e155 logged in successfully. Total logins: 4
+ [info] 2026-04-11 18:53:02: POST /api/v1/user/verify-otp device:null
+ [info] 2026-04-11 18:53:25: POST /api/v1/address/create device:null
+ [info] 2026-04-11 18:54:36: POST /api/v1/address/create device:null
+ [info] 2026-04-11 18:55:02: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 18:55:02: Server running at http://localhost:3000
+ [info] 2026-04-11 18:57:27: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 18:57:27: Server running at http://localhost:3000
+ [info] 2026-04-11 18:57:40: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 18:57:40: Server running at http://localhost:3000
+ [info] 2026-04-11 18:57:56: POST /api/v1/address/create device:null
+ [info] 2026-04-11 19:37:11: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:37:11: Server running at http://localhost:3000
+ [info] 2026-04-11 19:38:47: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:38:47: Server running at http://localhost:3000
+ [info] 2026-04-11 19:40:50: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:40:50: Server running at http://localhost:3000
+ [info] 2026-04-11 19:41:08: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:41:08: Server running at http://localhost:3000
+ [info] 2026-04-11 19:41:17: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:41:17: Server running at http://localhost:3000
+ [info] 2026-04-11 19:41:21: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:41:21: Server running at http://localhost:3000
+ [info] 2026-04-11 19:41:29: POST /api/v1/address/create device:null
+ [info] 2026-04-11 19:42:07: POST /api/v1/address/create device:null
+ [info] 2026-04-11 19:43:10: POST /api/v1/address/create device:null
+ [info] 2026-04-11 19:43:52: PATCH /api/v1/address/update/69da5dfebfa6e430e2a9e3bc device:null
+ [info] 2026-04-11 19:44:02: PATCH /api/v1/address/update/69da5dfebfa6e430e2a9e3bc device:null
+ [info] 2026-04-11 19:44:57: GET /api/v1/address device:null
+ [info] 2026-04-11 19:45:19: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:45:19: Server running at http://localhost:3000
+ [info] 2026-04-11 19:45:27: GET /api/v1/address device:null
+ [info] 2026-04-11 19:46:47: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:46:47: Server running at http://localhost:3000
+ [info] 2026-04-11 19:47:04: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:47:04: Server running at http://localhost:3000
+ [info] 2026-04-11 19:47:15: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:47:15: Server running at http://localhost:3000
+ [info] 2026-04-11 19:48:10: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:48:10: Server running at http://localhost:3000
+ [info] 2026-04-11 19:48:23: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:48:23: Server running at http://localhost:3000
+ [info] 2026-04-11 19:48:28: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:48:28: Server running at http://localhost:3000
+ [info] 2026-04-11 19:48:46: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:48:46: Server running at http://localhost:3000
+ [info] 2026-04-11 19:49:06: PATCH /api/v1/address/update/69da5dfebfa6e430e2a9e3bc device:null
+ [info] 2026-04-11 19:50:17: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:50:17: Server running at http://localhost:3000
+ [info] 2026-04-11 19:50:23: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:50:23: Server running at http://localhost:3000
+ [info] 2026-04-11 19:50:25: PATCH /api/v1/address/update/69da5dfebfa6e430e2a9e3bc device:null
+ [info] 2026-04-11 19:51:15: PATCH /api/v1/address/update/69da5dfebfa6e430e2a9e3bc device:null
+ [info] 2026-04-11 19:52:46: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:52:46: Server running at http://localhost:3000
+ [info] 2026-04-11 19:53:20: PATCH /api/v1/address/update/69da5dfebfa6e430e2a9e3bc device:null
+ [info] 2026-04-11 19:53:51: PATCH /api/v1/address/update/69da5dfebfa6e430e2a9e3bc device:null
+ [info] 2026-04-11 19:54:43: POST /api/v1/address/create device:null
+ [info] 2026-04-11 19:55:04: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:55:04: Server running at http://localhost:3000
+ [info] 2026-04-11 19:55:10: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:55:10: Server running at http://localhost:3000
+ [info] 2026-04-11 19:55:14: POST /api/v1/address/create device:null
+ [info] 2026-04-11 19:55:44: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:55:44: Server running at http://localhost:3000
+ [info] 2026-04-11 19:55:54: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:55:54: Server running at http://localhost:3000
+ [info] 2026-04-11 19:56:20: POST /api/v1/address/create device:null
+ [info] 2026-04-11 19:56:26: GET /api/v1/address device:null
+ [info] 2026-04-11 19:56:53: PATCH /api/v1/address/update/69da6114b5c6a96df2073301 device:null
+ [info] 2026-04-11 19:57:29: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:57:29: Server running at http://localhost:3000
+ [info] 2026-04-11 19:57:46: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:57:46: Server running at http://localhost:3000
+ [info] 2026-04-11 19:58:05: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:58:05: Server running at http://localhost:3000
+ [info] 2026-04-11 19:58:06: PATCH /api/v1/address/update/69da6114b5c6a96df2073301 device:null
+ [info] 2026-04-11 19:58:23: PATCH /api/v1/address/update/69da6114b5c6a96df2073301 device:null
+ [info] 2026-04-11 19:58:41: PATCH /api/v1/address/update/69da6114b5c6a96df2073301 device:null
+ [info] 2026-04-11 19:59:15: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:59:15: Server running at http://localhost:3000
+ [info] 2026-04-11 19:59:38: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:59:38: Server running at http://localhost:3000
+ [info] 2026-04-11 19:59:45: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 19:59:45: Server running at http://localhost:3000
+ [info] 2026-04-11 19:59:47: PATCH /api/v1/address/update/69da6114b5c6a96df2073301 device:null
+ [info] 2026-04-11 20:01:38: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 20:01:38: Server running at http://localhost:3000
+ [info] 2026-04-11 20:02:22: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-11 20:02:22: Server running at http://localhost:3000
+ [info] 2026-04-11 20:02:29: PATCH /api/v1/address/update/69da6114b5c6a96df2073301 device:null
+ [info] 2026-04-11 20:04:06: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 20:04:06: Server running at http://localhost:3000
+ [info] 2026-04-11 20:04:11: PATCH /api/v1/address/update/69da6114b5c6a96df2073301 device:null
+ [info] 2026-04-11 20:04:43: GET /api/v1/address device:null
+ [info] 2026-04-11 20:05:09: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 20:05:09: Server running at http://localhost:3000
+ [info] 2026-04-11 20:05:18: PATCH /api/v1/address/update/69da6114b5c6a96df2073301 device:null
+ [info] 2026-04-11 20:05:29: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 20:05:29: Server running at http://localhost:3000
+ [info] 2026-04-11 20:05:53: PATCH /api/v1/address/update/69da6114b5c6a96df2073301 device:null
+ [info] 2026-04-11 20:07:46: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 20:07:46: Server running at http://localhost:3000
+ [info] 2026-04-11 20:08:07: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 20:08:07: Server running at http://localhost:3000
+ [info] 2026-04-11 20:08:13: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 20:08:13: Server running at http://localhost:3000
+ [info] 2026-04-11 20:08:37: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 20:08:37: Server running at http://localhost:3000
+ [info] 2026-04-11 20:10:06: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-11 20:10:06: Server running at http://localhost:3000
+ [info] 2026-04-11 20:10:15: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-11 20:10:15: Server running at http://localhost:3000

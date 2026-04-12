@@ -36,7 +36,7 @@ const userSchema = new Schema(
 
     class: {
       type: String,
-      enum: ["user", "provider", "admin", "lurker"],
+      enum: ["user", "vendor", "admin", "lurker"],
       default: "lurker",
     },
 
@@ -93,6 +93,10 @@ const userSchema = new Schema(
     del: {
       type: Boolean,
       default: false,
+    },
+
+     deletedAt: {
+      type: Date,
     },
 
     loginCount: {

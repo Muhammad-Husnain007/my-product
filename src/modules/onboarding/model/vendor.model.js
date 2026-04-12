@@ -25,6 +25,9 @@ const vendorSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
+     deletedAt: {
+      type: Date,
+    },
     document: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Documents",

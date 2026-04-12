@@ -26,7 +26,7 @@ const create = async (req, res) => {
     let otpSent = false;
 
     if ("email" in req.body) {
-      const otp = await sendOTP(email); // sendOTP must return the raw OTP
+      const otp = await sendOTP(email); 
       const otpHash = await bcrypt.hash(String(otp), 10);
       updatePayload.email = email;
       updatePayload.otpHash = otpHash;

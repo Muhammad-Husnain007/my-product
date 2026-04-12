@@ -6,7 +6,7 @@ const classBasedAccess = (...allowedRoles) => {
       return res.status(401).json(
         new ApiError({
           status: 401,
-          error: "Unauthorized"
+          error: "Access denied"
         })
       );
     }

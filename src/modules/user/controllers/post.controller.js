@@ -48,6 +48,7 @@ const verifyOTP = async (req, res) => {
   user.lastLogin = new Date();
   user.loginCount += 1;
   user.emailVerified = true;
+  user.class = 'user';
   const token = await generateToken(user);  
   await user.save();
   logger.info(`User ${user._id} logged in successfully. Total logins: ${user.loginCount}`);

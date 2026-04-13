@@ -3,37 +3,40 @@ import mongoose from "mongoose";
 const documentSchema = new mongoose.Schema(
   {
     user: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "User",
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
     },
     type: {
-        type: String,
-        enum: ["id_card"],
+      type: String,
+      enum: ["id_card", "hall_images"],
     },
+
     imageFrontSide: {
-        type: String,
+      type: String,
     },
     imageBackSide: {
-        type: String,
+      type: String,
+    },
+
+    hallImages: {
+      type: String,
     },
 
     issueDate: {
-        type: Date,
-        required: true
+      type: Date,
     },
     expiryDate: {
-        type: Date,
-        required: true
+      type: Date,
     },
     del: {
-        type: Boolean,
-        default: false
+      type: Boolean,
+      default: false,
     },
-     deletedAt: {
+    deletedAt: {
       type: Date,
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 const DocumentModel = mongoose.model("Document", documentSchema);

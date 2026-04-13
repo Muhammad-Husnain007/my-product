@@ -1,13 +1,14 @@
 import Joi from "joi";
 
 export const createDocumentValidator = Joi.object({
-  type: Joi.string().valid("id_card").required(),
+  type: Joi.string().valid("id_card", "hall_images").required(),
 
   imageFrontSide: Joi.string().uri().allow("", null),
   imageBackSide: Joi.string().uri().allow("", null),
 
-  issueDate: Joi.date().required(),
-  expiryDate: Joi.date().required(),
+  issueDate: Joi.date().optional(),
+  expiryDate: Joi.date().optional(),
+  hallImages: Joi.array().items(Joi.string()).required()
 });
 
 export const updateDocumentValidator = {

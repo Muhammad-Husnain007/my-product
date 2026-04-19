@@ -3,6 +3,10 @@
 3. booking apis and schema.
 4. negotiate apis and schema.
 5. hall sloting flow which is avl or not.
+6. create helper for {bycrypt, jwt etc}
+7. Add all business logic in service files.
+8. Move admin in seprate project.
+
 
 =================== admin bana hai===========================================:
 

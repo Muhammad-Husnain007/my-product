@@ -7,6 +7,7 @@ import vendorRouter from '../onboarding/route/vendor.route.js';
 import hallRouter from '../hallUpload/route/hall.route.js';
 import accRejRouter from '../../admin/modules/vendorAccRej/route/acceptReject.route.js';
 
+
 const apiRouter = Router();
 
 apiRouter.use('/device', deviceRouter);
@@ -18,7 +19,7 @@ apiRouter.use('/hall', hallRouter);
 
 //  Admin Routes ??? //////////////////
 
-apiRouter.use('/nova', accRejRouter)
+apiRouter.use('/nova',  accRejRouter)
 
 export default apiRouter;
  

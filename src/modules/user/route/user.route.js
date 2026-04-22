@@ -8,6 +8,7 @@ import {
 } from "./user.validator.js";
 import { patchUser } from "../controllers/patch.controller.js";
 import Joi from "joi";
+import classBasedAccess from "../../../middlewares/classBA.middleware.js";
 
 const router = Router();
 
@@ -23,6 +24,7 @@ router.post(
       otp: Joi.number().integer().min(1000).max(9999).required(),
     }),
   }),
+  classBasedAccess(['lurker', 'user', 'vendor']),
   verifyOTP,
 );
 

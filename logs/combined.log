@@ -1710,3 +1710,97 @@ undefined [info]: Server is running on http://localhost:3000
  [info] 2026-04-13 11:34:53: DELETE /api/v1/hall/69dbbd024cafe188bbeca431 device:null
  [info] 2026-04-13 11:34:59: GET /api/v1/hall/get-all device:null
  [info] 2026-04-13 11:35:05: GET /api/v1/hall/69dbbd024cafe188bbeca431 device:null
+ [info] 2026-04-26 22:27:57: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:27:57: Server running on port 3000
+ [info] 2026-04-26 22:29:50: POST /api/v1%7D/user/create-user device:null
+ [info] 2026-04-26 22:33:30: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:33:30: Server running on port 3000
+ [info] 2026-04-26 22:33:38: POST /api/v1%7D/user/create-user device:null
+ [info] 2026-04-26 22:33:44: POST /api/v1/user/create-user device:null
+ [info] 2026-04-26 22:34:25: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:36:05: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:36:05: Server running on port 3000
+ [info] 2026-04-26 22:36:13: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:36:14: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:36:14: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:36:15: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:36:15: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:36:16: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:36:16: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:36:39: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:36:39: Server running on port 3000
+ [info] 2026-04-26 22:36:44: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:36:45: GET /favicon.ico device:null
+ [info] 2026-04-26 22:37:28: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:37:28: Server running on port 3000
+ [info] 2026-04-26 22:37:32: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:37:32: Server running on port 3000
+ [info] 2026-04-26 22:37:44: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:37:59: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:38:02: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:38:05: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:38:09: POST /api/v1/user/create-user device:null
+ [info] 2026-04-26 22:38:13: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:44:20: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:44:20: Server running on port 3000
+ [info] 2026-04-26 22:44:27: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:45:11: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:45:28: GET /.well-known/appspecific/com.chrome.devtools.json device:null
+ [info] 2026-04-26 22:45:48: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:45:48: Server running on port 3000
+ [info] 2026-04-26 22:45:55: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:45:55: GET /.well-known/appspecific/com.chrome.devtools.json device:null
+ [info] 2026-04-26 22:48:09: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:48:09: Server running on port 3000
+ [info] 2026-04-26 22:50:10: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:50:10: Server running on port 3000
+ [info] 2026-04-26 22:50:13: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:50:13: Server running on port 3000
+ [info] 2026-04-26 22:50:18: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:50:18: Server running on port 3000
+ [info] 2026-04-26 22:50:35: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:50:35: Server running on port 3000
+ [info] 2026-04-26 22:50:39: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:50:39: GET /.well-known/appspecific/com.chrome.devtools.json device:null
+ [info] 2026-04-26 22:51:13: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:51:13: GET /.well-known/appspecific/com.chrome.devtools.json device:null
+ [info] 2026-04-26 22:51:15: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:51:15: GET /.well-known/appspecific/com.chrome.devtools.json device:null
+ [info] 2026-04-26 22:51:30: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:51:30: Server running on port 3000
+ [info] 2026-04-26 22:51:35: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:51:35: Server running on port 3000
+ [info] 2026-04-26 22:51:38: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:51:38: GET /.well-known/appspecific/com.chrome.devtools.json device:null
+ [info] 2026-04-26 22:52:15: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:52:15: Server running on port 3000
+ [info] 2026-04-26 22:52:16: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:52:20: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:52:21: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:52:21: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:52:50: GET /.well-known/appspecific/com.chrome.devtools.json device:null
+ [info] 2026-04-26 22:52:58: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:52:58: GET /.well-known/appspecific/com.chrome.devtools.json device:null
+ [info] 2026-04-26 22:57:21: POST /api/v1/user/create-user device:null
+ [info] 2026-04-26 22:57:37: POST /api/v1/user/ device:null
+ [info] 2026-04-26 22:57:41: GET /api/v1/user/ device:null
+ [info] 2026-04-26 22:57:46: GET /api/v1/user device:null
+ [info] 2026-04-26 22:58:23: POST /api/v1/user/verify-otp device:null
+ [info] 2026-04-26 22:58:38: GET /api/v1/document/69da91fc780a385d5e8c935d device:null
+ [info] 2026-04-26 22:58:54: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 22:59:10: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-26 22:59:10: Server running on port 3000
+ [info] 2026-04-26 22:59:18: GET /api/v1/document/69da91fc780a385d5e8c935d device:null
+ [info] 2026-04-26 22:59:32: POST /api/v1/user/create-user device:null
+ [info] 2026-04-26 22:59:36: POST /api/v1/user/verify-otp device:null
+ [info] 2026-04-26 22:59:46: POST /api/v1/user/verify-otp device:null
+ [info] 2026-04-26 23:00:02: POST /api/v1/user/verify-otp device:null
+ [info] 2026-04-26 23:00:12: POST /api/v1/user/verify-otp device:null
+ [info] 2026-04-26 23:00:40: GET /api/v1/admin/api-logs device:null
+ [info] 2026-04-26 23:00:43: POST /api/v1/user/verify-otp device:null
+ [info] 2026-04-26 23:00:59: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-26 23:00:59: Server running on port 3000
+ [info] 2026-04-26 23:01:04: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-26 23:01:04: Server running on port 3000
+ [info] 2026-04-26 23:01:36: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-26 23:01:36: Server running on port 3000

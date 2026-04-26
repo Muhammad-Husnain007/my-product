@@ -6,6 +6,7 @@ import documentRouter from '../document/route/document.route.js';
 import vendorRouter from '../onboarding/route/vendor.route.js';
 import hallRouter from '../hallUpload/route/hall.route.js';
 import accRejRouter from '../../admin/modules/vendorAccRej/route/acceptReject.route.js';
+import apiAuditLoggerRouter from "../apiAuditLogs/index.ui.js";
 
 
 const apiRouter = Router();
@@ -16,6 +17,9 @@ apiRouter.use('/address', addressRouter);
 apiRouter.use('/document', documentRouter);
 apiRouter.use('/vendor', vendorRouter);
 apiRouter.use('/hall', hallRouter);
+apiRouter.use('/admin', apiAuditLoggerRouter);
+
+//   app.use(`${config.urlMount}`, apiAuditLogsRouter);
 
 //  Admin Routes ??? //////////////////
 

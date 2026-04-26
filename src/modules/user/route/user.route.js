@@ -24,7 +24,7 @@ router.post(
       otp: Joi.number().integer().min(1000).max(9999).required(),
     }),
   }),
-  classBasedAccess(['lurker', 'user', 'vendor']),
+  // classBasedAccess(['lurker', 'user', 'vendor']),
   verifyOTP,
 );
 

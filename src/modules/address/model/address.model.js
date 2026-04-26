@@ -4,30 +4,30 @@ const addressSchema = new mongoose.Schema(
   {
     user: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'User',
-      required: true,
+      ref: "User",
     },
     label: {
-      type: String, // "Home", "Work", "Other"
-      default: 'Home',
+      type: String,
+      enum: ["Home", "Hall"],
+      default: "Home",
+    },
+    hall: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Hall",
     },
     fullName: {
       type: String,
-      required: true,
       trim: true,
     },
     addressLine: {
       type: String,
-      required: true,
       trim: true,
     },
     country: {
       type: String,
-      required: true,
     },
     city: {
       type: String,
-      required: true,
     },
     state: {
       type: String,
@@ -47,8 +47,11 @@ const addressSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    deletedAt: {
+      type: Date,
+    },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
-const AddressModel = mongoose.model('Address', addressSchema);
+const AddressModel = mongoose.model("Address", addressSchema);
 export default AddressModel;

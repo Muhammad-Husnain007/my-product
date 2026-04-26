@@ -13,6 +13,10 @@ const vendorSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
     },
+    status: {
+     type: String,
+     enum: ["accepted", "rejected"]
+    },
     emailVerified: {
       type: Boolean,
       default: false,
@@ -24,6 +28,9 @@ const vendorSchema = new mongoose.Schema(
     del: {
       type: Boolean,
       default: false,
+    },
+     deletedAt: {
+      type: Date,
     },
     document: {
       type: mongoose.Schema.Types.ObjectId,

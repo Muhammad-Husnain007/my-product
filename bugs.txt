@@ -1,0 +1,2 @@
+emailverified true in user schema.
+chech get-all halls api

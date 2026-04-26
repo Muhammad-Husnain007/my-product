@@ -7,6 +7,7 @@ import { deleteAddress } from "../controllers/delete.controller.js";
 import validate from "../../../middlewares/validate.middleware.js";
 import {authMiddleware} from "../../../middlewares/auth.middleware.js";
 import Joi from "joi";
+import classBasedAccess from './../../../middlewares/classBA.middleware';
 
 const router = express.Router();
 
@@ -15,12 +16,14 @@ router.post(
   "/create",
   authMiddleware,
   validate(createAddressValidator),
+  classBasedAccess(["user", "vendor"]),
   createAddress
 );
 
 router.get(
   "/",
   authMiddleware,
+  classBasedAccess(["user", "vendor"]),
   getAddresses
 );
 
@@ -28,6 +31,7 @@ router.patch(
   "/update/:addressId",
   authMiddleware,
   validate(updateAddressValidator),
+  classBasedAccess(["user", "vendor"]),
   updateAddress
 );
 
@@ -39,6 +43,7 @@ router.delete(
       addressId: Joi.string().hex().length(24).required()
     })
   })),
+  classBasedAccess(["user", "vendor"]),
   deleteAddress
 );
 

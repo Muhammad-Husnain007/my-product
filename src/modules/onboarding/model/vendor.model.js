@@ -12,10 +12,12 @@ const vendorSchema = new mongoose.Schema(
     user: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
+      index: true,
     },
     status: {
      type: String,
-     enum: ["accepted", "rejected"]
+     enum: ["submitted", "pending", "accepted", "rejected"],
+     default: "pending",
     },
     emailVerified: {
       type: Boolean,
@@ -28,6 +30,7 @@ const vendorSchema = new mongoose.Schema(
     del: {
       type: Boolean,
       default: false,
+      index: true,
     },
      deletedAt: {
       type: Date,

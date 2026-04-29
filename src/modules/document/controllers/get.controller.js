@@ -3,7 +3,7 @@ import DocumentModel from "../model/document.model.js";
 export const getDocument = async (req, res) => {
   try {
     const { documentId } = req.params;
-    const doc = await DocumentModel.find({
+    const doc = await DocumentModel.findOne({
       _id: documentId,
       del: false,
     }).populate("user", "name email");

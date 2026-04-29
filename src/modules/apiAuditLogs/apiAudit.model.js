@@ -29,7 +29,7 @@ const apiAuditLogSchema = new mongoose.Schema(
       type: Date,
       default: Date.now,
       index: true,
-      expires: "3m", // auto delete after 30 days (IMPORTANT for storage)
+      expires: "200d", // auto delete after 200 days (IMPORTANT for storage)
     },
   },
   { timestamps: false }

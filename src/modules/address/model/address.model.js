@@ -5,6 +5,7 @@ const addressSchema = new mongoose.Schema(
     user: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
+      index: true,
     },
     label: {
       type: String,
@@ -42,10 +43,13 @@ const addressSchema = new mongoose.Schema(
     active: {
       type: Boolean,
       default: false,
+      index: true,
+
     },
     del: {
       type: Boolean,
       default: false,
+      index: true,
     },
     deletedAt: {
       type: Date,

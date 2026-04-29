@@ -1,2 +1,5 @@
-emailverified true in user schema.
-chech get-all halls api
+1. add capacity in hall schema
+2. add active in hall
+3. add avl feature means jis date main hall avl nhi us pa false jis pa avl uspa true
+4. logger add karna bhool gaya and also check status on return 
+5. new feat transfer balance into other wallet

@@ -1,128 +1,219 @@
 import mongoose from "mongoose";
-import BookingModel from "../../booking/model/booking.model";
-import { PaymentModel } from "../model/payment.model";
-
+import BookingModel from "./../../booking/model/booking.model.js";
+import { PaymentModel } from "../model/payment.model.js";
+import { UserModel } from "../../user/model/user.model.js";
 
 export const createPayment = async (req, res) => {
-
   const session = await mongoose.startSession();
 
-  session.startTransaction();
-
   try {
+    session.startTransaction();
 
-    const userId = req.user._id;
+    const { bookingId, type } = req.body;
 
-    const {
-      bookingId,
-      type,
-      paymentMethod,
-      advanceAmount,
-      remainingAmount,
-    } = req.body;
+    // ======================================================
+    // GET BOOKING
+    // ======================================================
 
-    // ==================================================
-    // BOOKING FIND
-    // ==================================================
-
-    const booking = await BookingModel.findOne({
-      _id: bookingId,
-      user: userId,
-      del: false,
-      status: "accepted",
-    })
+    const booking = await BookingModel.findById(bookingId)
+      .populate("user")
       .populate({
         path: "hall",
-        select: "owner pricePerSlot",
+        populate: {
+          path: "owner",
+        },
       })
-      .session(session)
-      .lean();
+      .session(session);
 
     if (!booking) {
-
       await session.abortTransaction();
+      session.endSession();
 
       return res.status(404).json({
         success: false,
-        message: "Booking not found or not accepted",
+        message: "Booking not found",
       });
     }
 
-    // ==================================================
-    // ALREADY PAID CHECK
-    // ==================================================
+    // ======================================================
+    // CHECK BOOKING STATUS
+    // ======================================================
 
-    const alreadyPaid = await PaymentModel.findOne({
-      booking: bookingId,
-      paymentStatus: "paid",
-      del: false,
-    }).session(session);
-
-    if (alreadyPaid) {
-
+    if (booking.status !== "accepted") {
       await session.abortTransaction();
+      session.endSession();
 
       return res.status(400).json({
         success: false,
-        message: "Payment already completed",
+        message: "Booking is not accepted yet",
       });
     }
 
-    // ==================================================
+    // ======================================================
+    // GET USER & VENDOR
+    // ======================================================
+
+    const user = booking.user;
+    const vendor = booking.hall.owner;
+
+    if (!user || !vendor) {
+      await session.abortTransaction();
+      session.endSession();
+
+      return res.status(404).json({
+        success: false,
+        message: "User or Vendor not found",
+      });
+    }
+
+    // ======================================================
     // TOTAL AMOUNT
-    // ==================================================
+    // ======================================================
 
-    const totalAmount = booking.pricePerSlot;
-    let advanceIs = (totalAmount / 100) * 10; // 10% advance 
+    // CHANGE THIS FIELD NAME IF NEEDED
+    const totalAmount = booking?.hall?.pricePerSlot 
 
-    // ==================================================
-    // ADVANCE / FULL LOGIC
-    // ==================================================
+    if (!totalAmount || totalAmount <= 0) {
+      await session.abortTransaction();
+      session.endSession();
 
-    let paidAmount = 0;
+      return res.status(400).json({
+        success: false,
+        message: "Invalid total amount in booking",
+      });
+    }
 
+    // ======================================================
+    // ADVANCE AMOUNT (20%)
+    // ======================================================
+
+    const advanceAmount = totalAmount * 0.2;
+
+    let payableAmount = 0;
     let remainingAmount = 0;
 
+    // ======================================================
+    // ADVANCE PAYMENT
+    // ======================================================
+
     if (type === "advanced") {
-       
-        
+      const alreadyPaidAdvance =
+        await PaymentModel.findOne({
+          booking: bookingId,
+          type: "advanced",
+          paymentStatus: "paid",
+        }).session(session);
 
-    } else if (type === "full") {
+      if (alreadyPaidAdvance) {
+        await session.abortTransaction();
+        session.endSession();
 
-      
+        return res.status(400).json({
+          success: false,
+          message: "Advance payment already completed",
+        });
+      }
 
-    } else {
+      payableAmount = advanceAmount;
+      remainingAmount = totalAmount - advanceAmount;
+    }
+
+    // ======================================================
+    // FULL PAYMENT
+    // ======================================================
+
+    if (type === "full") {
+      const alreadyPaidFull =
+        await PaymentModel.findOne({
+          booking: bookingId,
+          type: "full",
+          paymentStatus: "paid",
+        }).session(session);
+
+      if (alreadyPaidFull) {
+        await session.abortTransaction();
+        session.endSession();
+
+        return res.status(400).json({
+          success: false,
+          message: "Full payment already completed",
+        });
+      }
+
+      // CHECK ADVANCE PAYMENT
+      const advancePayment =
+        await PaymentModel.findOne({
+          booking: bookingId,
+          type: "advanced",
+          paymentStatus: "paid",
+        }).session(session);
+
+      if (advancePayment) {
+        // ONLY REMAINING AMOUNT
+        payableAmount =
+          advancePayment.remainingAmount;
+      } else {
+        // DIRECT FULL PAYMENT
+        payableAmount = totalAmount;
+      }
+
+      remainingAmount = 0;
+    }
+
+    // ======================================================
+    // CHECK WALLET BALANCE
+    // ======================================================
+
+    if (user.wallet < payableAmount) {
       await session.abortTransaction();
+      session.endSession();
+
       return res.status(400).json({
         success: false,
-        message: "Invalid payment type",
+        message: "Insufficient wallet balance",
       });
     }
 
-    // ==================================================
+    // ======================================================
     // COMMISSION
-    // ==================================================
+    // ======================================================
 
     const commissionPercentage = 10;
 
     const commissionAmount =
-      (paidAmount * commissionPercentage) / 100;
+      (payableAmount * commissionPercentage) /
+      100;
 
     const vendorReceivedAmount =
-      paidAmount - commissionAmount;
+      payableAmount - commissionAmount;
 
-    // ==================================================
+    // ======================================================
+    // UPDATE USER WALLET
+    // ======================================================
+
+    user.wallet -= payableAmount;
+
+    // ======================================================
+    // UPDATE VENDOR WALLET
+    // ======================================================
+
+    vendor.wallet += vendorReceivedAmount;
+
+    await user.save({ session });
+    await vendor.save({ session });
+
+    // ======================================================
     // CREATE PAYMENT
-    // ==================================================
+    // ======================================================
 
-    const payments = await PaymentModel.create(
+    const payment = await PaymentModel.create(
       [
         {
           booking: booking._id,
 
-          user: userId,
+          user: user._id,
 
-          vendor: booking.hall.owner,
+          vendor: vendor._id,
 
           type,
 
@@ -130,8 +221,8 @@ export const createPayment = async (req, res) => {
 
           advanceAmount:
             type === "advanced"
-              ? advanceAmount
-              : totalAmount,
+              ? payableAmount
+              : advanceAmount,
 
           remainingAmount,
 
@@ -141,9 +232,9 @@ export const createPayment = async (req, res) => {
 
           vendorReceivedAmount,
 
-          paymentMethod,
+          // paymentMethod: "cash",
 
-          transactionId,
+          transactionId: `TXN-${Date.now()}`,
 
           paymentStatus: "paid",
 
@@ -153,104 +244,26 @@ export const createPayment = async (req, res) => {
       { session }
     );
 
-    const payment = payments[0];
-
-    // ==================================================
-    // WALLET FIND / CREATE
-    // ==================================================
-
-    let wallet = await WalletModel.findOne({
-      user: booking.hall.owner,
-    }).session(session);
-
-    if (!wallet) {
-
-      const wallets = await WalletModel.create(
-        [
-          {
-            user: booking.hall.owner,
-          },
-        ],
-        { session }
-      );
-
-      wallet = wallets[0];
-    }
-
-    const previousBalance = wallet.balance;
-
-    // ==================================================
-    // WALLET UPDATE
-    // ==================================================
-
-    wallet.balance += vendorReceivedAmount;
-
-    wallet.totalEarning += vendorReceivedAmount;
-
-    wallet.totalCommissionPaid += commissionAmount;
-
-    await wallet.save({ session });
-
-    // ==================================================
-    // WALLET HISTORY
-    // ==================================================
-
-    await WalletHistoryModel.create(
-      [
-        {
-          wallet: wallet._id,
-
-          user: booking.hall.owner,
-
-          booking: booking._id,
-
-          payment: payment._id,
-
-          type: "credit",
-
-          amount: vendorReceivedAmount,
-
-          previousBalance,
-
-          currentBalance: wallet.balance,
-
-          description: "Payment received",
-        },
-      ],
-      { session }
-    );
-
-    // ==================================================
-    // BOOKING STATUS
-    // ==================================================
-
-    if (type === "full") {
-
-      booking.status = "completed";
-
-    } else {
-
-      booking.status = "partially_paid";
-    }
-
+    // ======================================================
+    // COMMIT TRANSACTION
+    // ======================================================
+    booking.status = "completed"
     await booking.save({ session });
-
-    // ==================================================
-    // COMMIT
-    // ==================================================
-
     await session.commitTransaction();
 
     session.endSession();
 
     return res.status(201).json({
       success: true,
-      data: payment,
       message: "Payment successful",
+
+      payment: payment[0],
+
+      userWallet: user.wallet,
+
+      vendorWallet: vendor.wallet,
     });
-
   } catch (error) {
-
     await session.abortTransaction();
 
     session.endSession();

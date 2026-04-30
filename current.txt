@@ -21,7 +21,7 @@ all which is in curr done
 
 ============ CURR REAMAING ====================
 
-payment complete 
+payment complete (some other features add)
 wallet history complete
 rating complete
 notification complete

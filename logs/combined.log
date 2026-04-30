@@ -2367,3 +2367,50 @@ undefined [info]: Server is running on http://localhost:3000
  [info] 2026-04-29 20:25:44: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
  [info] 2026-04-29 20:25:44: Server running on port 3000
  [info] 2026-04-29 20:25:49: POST /api/v1/wallet/transfer-balance device:null
+ [info] 2026-04-30 14:02:14: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:02:14: Server running on port 3000
+ [info] 2026-04-30 14:20:42: POST /api/v1/payment/create-payment device:null
+ [info] 2026-04-30 14:21:35: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:21:35: Server running on port 3000
+ [info] 2026-04-30 14:21:43: POST /api/v1/payment/create-payment device:null
+ [info] 2026-04-30 14:22:10: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:22:10: Server running on port 3000
+ [info] 2026-04-30 14:22:13: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:22:13: Server running on port 3000
+ [info] 2026-04-30 14:23:46: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:23:46: Server running on port 3000
+ [info] 2026-04-30 14:24:16: POST /api/v1/payment/create-payment device:null
+ [info] 2026-04-30 14:28:31: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:28:31: Server running on port 3000
+ [info] 2026-04-30 14:28:36: POST /api/v1/payment/create-payment device:null
+ [info] 2026-04-30 14:30:02: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:30:03: Server running on port 3000
+ [info] 2026-04-30 14:30:42: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:30:42: Server running on port 3000
+ [info] 2026-04-30 14:30:55: POST /api/v1/payment/create-payment device:null
+ [info] 2026-04-30 14:32:05: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:32:06: Server running on port 3000
+ [info] 2026-04-30 14:32:15: POST /api/v1/payment/create-payment device:null
+ [info] 2026-04-30 14:34:22: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:34:22: Server running on port 3000
+ [info] 2026-04-30 14:34:27: POST /api/v1/payment/create-payment device:null
+ [info] 2026-04-30 14:34:48: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:34:48: Server running on port 3000
+ [info] 2026-04-30 14:34:51: POST /api/v1/payment/create-payment device:null
+ [info] 2026-04-30 14:35:05: POST /api/v1/payment/create-payment device:null
+ [info] 2026-04-30 14:35:44: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:35:44: Server running on port 3000
+ [info] 2026-04-30 14:35:53: POST /api/v1/payment/create-payment device:null
+ [info] 2026-04-30 14:38:01: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:38:01: Server running on port 3000
+ [info] 2026-04-30 14:38:22: POST /api/v1/payment/create-payment device:null
+ [info] 2026-04-30 14:43:15: MongoDB connected !! DB HOST: ac-235uepa-shard-00-02.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:43:15: Server running on port 3000
+ [info] 2026-04-30 14:43:41: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:43:41: Server running on port 3000
+ [info] 2026-04-30 14:51:30: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:51:30: Server running on port 3000
+ [info] 2026-04-30 14:53:07: POST /api/v1/payment/create-payment device:null
+ [info] 2026-04-30 14:55:08: POST /api/v1/payment/create-payment device:null
+ [info] 2026-04-30 14:56:09: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
+ [info] 2026-04-30 14:56:09: Server running on port 3000

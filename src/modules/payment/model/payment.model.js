@@ -62,9 +62,11 @@ const paymentSchema = new mongoose.Schema(
       type: String,
       enum: [
         "cash",
+        "wallet",
         "easypaisa",
         "jazzcash",
       ],
+      default: "wallet",
     },
 
     transactionId: {

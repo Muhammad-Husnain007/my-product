@@ -28,6 +28,7 @@ const verifyOTP = async (req, res) => {
     vendor.emailVerifiedAt = new Date();
     vendor.otp = null;
     vendor.otpExpiresAt = null;
+    vendor.status = "submitted"; 
     await vendor.save();
 
     return res.status(200).json({ success: true, message: "Email verified successfully" });

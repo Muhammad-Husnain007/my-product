@@ -1,15 +1,36 @@
-1. email ko laikar aik alag flow api and schema banan hai.
-2. upload hall apis and schema.
-3. booking apis and schema.
-4. negotiate apis and schema.
-5. hall sloting flow which is avl or not.
-6. create helper for {bycrypt, jwt etc}
-7. Add all business logic in service files.
-8. Move admin in seprate project.
+============ CURR DONE ===============
+address complete
+apiAuditLog complete
+device sync complete
+document complete
+hallUpload complete
+user complete
+onboarding complete
+booking complete === (payment is remaining for confirm booking)
+negotiate complete
+wallet complete
 
 
-=================== admin bana hai===========================================:
+======= REVIEW AND CHECK CONDITION =============
+
+all which is in curr done
+
+========= CURR DONE NEED TEST OR CHECK ===============
+
+
+
+============ CURR REAMAING ====================
+
+payment complete (some other features add)
+wallet history complete
+rating complete
+notification complete
+
+
+=================== admin bana hai ===========================================:
 
 1. approve/reject vendor req.
 2.
 
+================= Adds in Queue =============== 
+Otp sent

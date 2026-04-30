@@ -7,7 +7,7 @@ import { deleteAddress } from "../controllers/delete.controller.js";
 import validate from "../../../middlewares/validate.middleware.js";
 import {authMiddleware} from "../../../middlewares/auth.middleware.js";
 import Joi from "joi";
-import classBasedAccess from './../../../middlewares/classBA.middleware';
+import classBasedAccess from './../../../middlewares/classBA.middleware.js';
 
 const router = express.Router();
 

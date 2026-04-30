@@ -49,9 +49,11 @@ const hallSchema = new mongoose.Schema(
     del: {
       type: Boolean,
       default: false,
+      index: true,
     },
     deletedAt: {
       type: Date,
+      index: true,
     },
   },
   {

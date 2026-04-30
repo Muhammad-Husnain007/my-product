@@ -3,7 +3,7 @@ const { Schema } = mongoose;
 
 const profileSchema = new Schema(
   {
-    currency: {
+    currencyCode: {
       type: String,
       uppercase: true,
       enum: ["USD", "PKR", "EUR", "GBP", "BHD"],
@@ -47,6 +47,7 @@ const userSchema = new Schema(
 
     email: {
       type: String,
+      index: true,
     },
 
     phone: {
@@ -97,6 +98,7 @@ const userSchema = new Schema(
     del: {
       type: Boolean,
       default: false,
+      index: true,
     },
 
     deletedAt: {

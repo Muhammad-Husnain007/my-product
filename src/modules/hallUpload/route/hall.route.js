@@ -20,6 +20,13 @@ router.post(
 );
 
 router.get(
+  "/get-all",
+  authMiddleware,
+  classBasedAccess("user", "vendor", "admin"),
+  getAllHalls,
+);
+
+router.get(
   "/:hallId",
   authMiddleware,
   classBasedAccess("user", "vendor", "admin"),
@@ -48,13 +55,6 @@ router.delete(
     }),
   }),
   deleteHall,
-);
-
-router.get(
-  "/get-all",
-  authMiddleware,
-  classBasedAccess("user", "vendor", "admin"),
-  getAllHalls,
 );
 
 export default router;

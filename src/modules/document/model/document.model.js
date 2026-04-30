@@ -34,6 +34,7 @@ const documentSchema = new mongoose.Schema(
     },
     deletedAt: {
       type: Date,
+       index: true,
     },
   },
   { timestamps: true },

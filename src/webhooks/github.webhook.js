@@ -30,15 +30,6 @@ router.post("/", async (req, res) => {
     timestamp: new Date().toISOString(),
   });
 
-  if (gitevent === "push") {
-    const obj = {
-      branch: req.body?.ref,
-      commits: req.body?.commits?.length,
-      pusher: req.body?.pusher?.name,
-    }
-    logger.info("New commit pushed", obj);
-  }
-
   if (gitevent === "workflow_run") {
     const workflow = body?.workflow_run;
     logger.info("CI/CD workflow completed", {

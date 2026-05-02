@@ -4,8 +4,11 @@ import path from "path";
 const { combine, timestamp, printf, colorize } = winston.format;
 
 // Custom log format
-const logFormat = printf(({ level, message, timestamp }) => {
-  return ` [${level}] ${timestamp}: ${message}`;
+const logFormat = printf(({ level, message, timestamp, ...meta }) => {
+  const metaStr = Object.keys(meta).length 
+    ? JSON.stringify(meta) 
+    : '';
+  return `[${level}] ${timestamp}: ${message} ${metaStr}`;
 });
 
 const logger = winston.createLogger({

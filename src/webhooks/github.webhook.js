@@ -32,9 +32,9 @@ router.post("/", async (req, res) => {
 
   if (gitevent === "push") {
     logger.info("New commit pushed", {
-      branch: body?.ref,
-      commits: body?.commits?.length,
-      pusher: body?.pusher?.name,
+      branch: req.body?.ref,
+      commits: req.body?.commits?.length,
+      pusher: req.body?.pusher?.name,
     });
   }
 
@@ -46,7 +46,6 @@ router.post("/", async (req, res) => {
       branch: workflow?.head_branch,
     });
   }
-
 });
 
 export default router;

@@ -2454,3 +2454,5 @@ undefined [info]: Server is running on http://localhost:3000
  [info] 2026-05-02 22:00:42: MongoDB connected !! DB HOST: ac-235uepa-shard-00-00.g5otgvg.mongodb.net
  [info] 2026-05-02 22:00:42: Server running on port 3000
  [info] 2026-05-02 22:00:54: POST /api/v1/webhook device:null
+ [info] 2026-05-02 22:04:19: MongoDB connected !! DB HOST: ac-235uepa-shard-00-01.g5otgvg.mongodb.net
+ [info] 2026-05-02 22:04:19: Server running on port 3000

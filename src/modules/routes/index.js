@@ -27,7 +27,7 @@ apiRouter.use('/booking', bookingRouter);
 apiRouter.use('/negotiate', negotiateRouter);
 apiRouter.use('/wallet', walletRouter);
 apiRouter.use('/payment', paymentRouter);
-apiRouter.use('/', githubWebhook);
+apiRouter.use('/webhook', githubWebhook);
 
 //   app.use(`${config.urlMount}`, apiAuditLogsRouter);
 

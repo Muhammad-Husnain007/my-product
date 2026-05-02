@@ -26,17 +26,12 @@ router.post("/", async (req, res) => {
     event: gitevent,
     delivery,
     repository: req.body?.repository?.name,
-    sender: req.body?.sender?.login,
+    branch: req.body?.ref,
+    commits: req.body?.commits[0].message,
+    pusher: req.body?.pusher?.name,
+    pusherEmail: req.body?.pusher?.email,
     timestamp: new Date().toISOString(),
   });
-
-  if (gitevent === "push") {
-    logger.info("New commit pushed", {
-      branch: req.body?.ref,
-      commits: req.body?.commits?.length,
-      pusher: req.body?.pusher?.name,
-    });
-  }
 
   if (gitevent === "workflow_run") {
     const workflow = req.body?.workflow_run;
@@ -46,7 +41,6 @@ router.post("/", async (req, res) => {
       branch: workflow?.head_branch,
     });
   }
-
 });
 
 export default router;

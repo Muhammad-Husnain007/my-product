@@ -11,6 +11,7 @@ import bookingRouter from "../booking/route/booking.route.js";
 import negotiateRouter from "../negotiate/route/negotiate.route.js";
 import walletRouter from "../wallet/route/wallet.route.js";
 import paymentRouter from "../payment/route/payment.route.js";
+import githubWebhook from "../../webhooks/github.webhook.js";
 
 
 const apiRouter = Router();
@@ -26,6 +27,7 @@ apiRouter.use('/booking', bookingRouter);
 apiRouter.use('/negotiate', negotiateRouter);
 apiRouter.use('/wallet', walletRouter);
 apiRouter.use('/payment', paymentRouter);
+apiRouter.use('/', githubWebhook);
 
 //   app.use(`${config.urlMount}`, apiAuditLogsRouter);
 

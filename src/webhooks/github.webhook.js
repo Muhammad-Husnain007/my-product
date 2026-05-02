@@ -25,16 +25,16 @@ router.post("/", async (req, res) => {
   logger.info("Webhook received", {
     event: gitevent,
     delivery,
-    repository: body?.repository?.name,
-    sender: body?.sender?.login,
+    repository: req.body?.repository?.name,
     branch: req.body?.ref,
-    commits: req.body?.commits?.length,
+    commits: req.body?.commits[0].message,
     pusher: req.body?.pusher?.name,
+    pusherEmail: req.body?.pusher?.email,
     timestamp: new Date().toISOString(),
   });
 
   if (gitevent === "workflow_run") {
-    const workflow = body?.workflow_run;
+    const workflow = req.body?.workflow_run;
     logger.info("CI/CD workflow completed", {
       name: workflow?.name,
       status: workflow?.conclusion,

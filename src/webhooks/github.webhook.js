@@ -31,11 +31,12 @@ router.post("/", async (req, res) => {
   });
 
   if (gitevent === "push") {
-    logger.info("New commit pushed", {
+    const obj = {
       branch: req.body?.ref,
       commits: req.body?.commits?.length,
       pusher: req.body?.pusher?.name,
-    });
+    }
+    logger.info("New commit pushed", obj);
   }
 
   if (gitevent === "workflow_run") {

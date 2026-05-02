@@ -47,16 +47,6 @@ router.post("/", async (req, res) => {
     });
   }
 
-  const event = req.headers["x-github-event"];
-
-  if (event === "push") {
-    logger.info("New commit!");
-  }
-
-  if (event === "workflow_run") {
-    const status = req.body.workflow_run?.conclusion;
-    logger.info("Deploy:", status);
-  }
 });
 
 export default router;

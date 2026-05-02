@@ -27,7 +27,6 @@ router.post("/", async (req, res) => {
     delivery,
     repository: req.body?.repository?.name,
     branch: req.body?.ref,
-    commits: req.body?.commits[0].message,
     pusher: req.body?.pusher?.name,
     pusherEmail: req.body?.pusher?.email,
     timestamp: new Date().toISOString(),
